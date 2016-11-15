@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 dependencies {
   compile 'com.android.support:design:25.0.1'
   compile 'com.android.support:appcompat-v7:25.0.1'
   compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.5'
-  compile 'com.davidstemmer.screenplay:screenplay:1.0.2'
-  compile 'com.davidstemmer.screenplay:flow-plugin:0.12'
-  compile 'com.squareup.flow:flow:0.12'
+  compile 'com.nhaarman:triad-kotlin-appcompat-v7:0.21.3'
 }
 
 android {
@@ -15,7 +14,7 @@ android {
   buildToolsVersion "25.0.0"
 
   defaultConfig {
-    applicationId "com.github.johnkil.screenplay"
+    applicationId "com.github.johnkil.triad"
     minSdkVersion 16
     targetSdkVersion 25
     versionCode 1
