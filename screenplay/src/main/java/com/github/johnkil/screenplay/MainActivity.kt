@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     app = application as ScreenplayApp
     flow = app.appFlow
 
-    val container = findViewById(R.id.root_container) as ViewGroup
+    val container = findViewById(R.id.stage_container) as ViewGroup
     dispatcher = ScreenplayDispatcher(this, container)
     dispatcher.setUp(flow)
   }
