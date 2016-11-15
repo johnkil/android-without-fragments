@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 dependencies {
-  compile 'com.android.support:design:25.0.0'
-  compile 'com.android.support:appcompat-v7:25.0.0'
+  compile 'com.android.support:design:25.0.1'
+  compile 'com.android.support:appcompat-v7:25.0.1'
   compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.5'
   compile 'com.davidstemmer.screenplay:screenplay:1.0.2'
   compile 'com.davidstemmer.screenplay:flow-plugin:0.12'
