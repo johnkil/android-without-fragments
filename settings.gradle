@@ -1,1 +1,1 @@
-include ':screenplay', ':triad', ':pilot', ':conductor'
+include ':screenplay', ':triad', ':pilot', ':conductor', ':conductor_mosby'
